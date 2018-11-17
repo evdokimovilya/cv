@@ -1,1 +1,1 @@
-web: gunicorn evdokimovilyacv.wsgi
+web: gunicorn cv.wsgi
