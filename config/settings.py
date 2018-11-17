@@ -33,6 +33,8 @@ INSTALLED_APPS = [
     'django_heroku'
 ]
 
+DEBUG = True
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
