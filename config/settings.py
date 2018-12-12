@@ -28,7 +28,7 @@ INSTALLED_APPS = [
 	'django.contrib.sessions',
 	'django.contrib.messages',
 	'django.contrib.staticfiles',
-	'apps.page.apps.PageConfig',
+	'apps.page'
 ]
 
 DEBUG = True
