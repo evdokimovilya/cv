@@ -31,7 +31,6 @@ INSTALLED_APPS = [
 	'apps',
 	'apps.page'
 ]
-
 DEBUG = True
 
 MIDDLEWARE = [
@@ -49,7 +48,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
 	{
 		'BACKEND': 'django.template.backends.django.DjangoTemplates',
-		'DIRS': ['C:/university/IT/www/evdokimovilya.ru/evdokimovilya/templates/'],
+		'DIRS': [os.path.join(BASE_DIR, 'template_static/'),],
 		'APP_DIRS': True,
 		'OPTIONS': {
 			'context_processors': [
